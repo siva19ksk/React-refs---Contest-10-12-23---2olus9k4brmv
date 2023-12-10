@@ -37,8 +37,8 @@ const handle=()=>{
       onChange={(e)=>setPassword(e.target.value)}/><br/>
 
       <button id="submitButton" onClick={handle}>Submit</button><br/>
-      <p id="emailText">Your Email :{ans &&  em.current }</p>
-      <p id ="passwordText">Your Password :{ans && ps.current }</p>
+      <p id="emailText">Your Email : {ans &&  em.current }</p>
+      <p id ="passwordText">Your Password : {ans && ps.current }</p>
       
     </div>
   )
